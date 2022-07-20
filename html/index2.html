@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unihance | Sign Up</title>
+    <!---->
+    <link rel="stylesheet" href="../css/style2.css" type="text/css">
+    <link rel="stylesheet" href="../css/all.min.css" type="text/css">
+    <!---->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!---->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap" rel="stylesheet">
+    <!---->
+
+</head>
+<body>
+    <section id="head0">
+            <div id="div4">
+                <img src="../images/BG/00.png" width="135px" height="40px">
+                <p style="color: white;" id="p1">Teach,<span style="color: rgb(223, 148, 27); background-color: rgba(20, 45, 83, 0.5);">Reach and Learn.</span></p>
+                <p id="p2" style="color: white;">Learn new stuff every day... don't stop at your limits</p>
+            </div>
+            <div id="div5">
+                <p id="p3">Sign up</p>
+                <form name="signup" onsubmit="return test()" action="../html/index3.html">
+                    <input type="text" name="fn" placeholder="First Name" required autofocus >
+                    <br>
+                    <input type="text" name="ln" placeholder="Last Name" required autofocus >
+                    <br>
+                    <input type="email" name="email" placeholder="@gmail.com" required autofocus>
+                    <br>
+                    <input type="password" name="ps" placeholder="Password" required maxlength="16">
+                    <br>
+                    <input type="password" name="cps" placeholder="Confirm Password" required maxlength="16">
+                    <br>
+                    
+                    <center>
+                        <p class="p1">By clicking sign,you agree on our</p>
+                        <p class="p1" style="color: rgb(247, 137, 12);">Terms of Use <span class="p1" style="color: black;">and</span> Privacy Policy</p>
+                    </center>
+                    <input class="mo" type="submit" value="LOGIN" >
+                </form>
+                <div id="div6">
+                    <a href="#" class="a2"> 
+                        <img class="im1" height="20px" width="30px" src="../images/Logo/l6.png">
+                        <span class="sp1">Google</span>
+                    </a>
+                    <a class="a2" href="#">
+                        <img class="im1" height="20px" width="30px" src="../images/Logo/l7.png">
+                        <span class="sp1">Facebook</span>
+                    </a>
+                </div>
+            </div>
+    </section>
+    <script>
+        function test(){
+            var fnarr=["Mido","","",""];
+            var lnarr=["Elkhlawy","","",""];
+            var parr=["2211293","","",""];
+            var cparr=["2211293","","",""];
+            var fname=document.forms["signup"]["fn"].value;
+            var lname=document.forms["signup"]["ln"].value;
+            var pass=document.forms["signup"]["ps"].value;
+            var cpass=document.forms["signup"]["cps"].value;
+            for(var i=0 ; i<4 ; i++){
+                if(( fname == fnarr[i]) && (lname == lnarr[i]) && (pass == parr[i] )&& (cpass == cparr[i]))
+                return true;
+                else if( fname == "" || lname == "" || pass == "" || cpass == ""){
+                    alert("Name and Password Empty");
+                    return false;
+                }
+            }
+            return false;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,230 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/*Start nav*/
+#navbar{
+    background-color: rgb(6, 28, 61);
+    display: flex;
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+}
+#div0 img{
+    cursor: pointer;
+    margin-left: 200px;
+    width:135px;
+    height:36px;
+}
+#div1 input{
+    margin-top: 3px;
+    margin-left: 23px;
+    width: 370px;
+    height: 37px;
+    color: rgb(255, 157, 0);
+    border: 2px solid rgb(255, 157, 0);
+    font-size: 16px;
+    border-radius: 5px;
+}
+input::placeholder{
+    padding-left: 15px;
+}
+#div1 i{
+    position: absolute;
+    left: 700px;
+    top: 22px;
+}
+#div2 a{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 35px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Barlow', sans-serif;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+#div3{
+    margin-left: 250px;
+}
+#div3 i{
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+    margin-top: 12px;
+}
+#div3 a{
+    display: inline-block;
+    text-decoration: none;
+    margin-left:20px ;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 19px;
+    border: 2px solid white;
+    padding: 6px 18px;
+    border-radius: 6px;
+}
+#div3 a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(44, 112, 201);
+    transition: .4s;
+    
+}
+/*End nav*/
+/*Start Section1*/
+.div0{
+    height: 200px;
+    background-image: url(../images/BG/05.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div1{
+    z-index: 1;
+    background-color: rgb(247, 247, 247);
+    width: 86%;
+    border: solid 1px rgb(224, 220, 220);
+    border-radius: 5px;
+    position:fixed;
+    top:100px;
+    right:8.5%;
+    display: flex;
+    justify-content: space-around;
+}
+.div3{
+    width: 30%;
+}
+.div2{
+    width: 30%;
+}
+.div4{
+    width: 30%;
+}
+.div3 img{
+    border: solid 1px rgb(238, 237, 237);
+    border-radius:5px;
+    margin: 6px 0px 6px 0px;
+}
+.div2 p{
+    font-size: 21px;
+    margin-top: 30px;
+    margin-right:40% ;
+}
+.div4 h2{
+    margin-top: 40px;
+    margin-left: 50%;
+    font-size: 35px;
+    color: rgb(7, 9, 94);
+}
+.div4 p{
+    font-size: 10px;
+    color: rgb(184, 183, 183);
+    margin-left: 53.5%;
+}
+.div5{
+    width: 47.5%;
+    height: 75px;
+    padding: 25px 5px 0px 5px;
+    border: solid 1px rgb(4, 8, 58);
+    border-radius: 6px;
+    position: fixed;
+    top: 250px;
+    left: 440px;
+    z-index: 2;
+    background-color: rgb(17, 4, 63);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.div5 p{
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+.r{
+    border-left: solid 2px white;
+    padding-left: 10px;
+}
+.div7 a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-color:rgb(9, 9, 90);
+    padding:3px 25px 3px 25px;
+    border:solid 1px rgb(3, 0, 41);
+    border-radius: 4px;
+}
+.div7 a:hover{
+    color: rgb(15, 121, 219);
+    background-color: rgb(238, 238, 238);
+    transition-duration: .7s;
+}
+.div7{
+    position: fixed;
+    top: 270px;
+    left: 1200px;
+    z-index: 2;
+}
+.div6{
+    display: flex;
+}
+/*End Section1*/
+/*Start Section2*/
+.div9{
+    border: solid 1px rgb(228, 228, 228);
+    border-radius: 4PX;
+    z-index: 2;
+    position: fixed;
+    top: 380px;
+    left: 82px;
+    padding:20PX 20PX 20PX 20PX ;
+    width: 45%;
+}
+.div10{
+    width: 40%;
+    height: 190px;
+    position: fixed;
+    bottom: 75px;
+    left: 770px;
+    top: 360px;
+    z-index: 3;
+    border: solid 1px rgb(221, 221, 221);
+    border-radius: 4px;
+    margin:20px;
+}
+.div10 img{
+    border-radius: 50%;
+    margin: 25px 2px 0px 10px;
+}
+.span1{
+    margin-top: 17px;
+    margin-right: 230px;
+    float: right;
+}
+.span2{
+    float: right;
+    position: fixed;
+    bottom: 165px;
+    right: 190px;
+    z-index: 3;
+}
+.span2 a{
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+    background-color: rgb(201, 201, 201);
+    color: rgb(61, 61, 61);
+    width: 90px;
+    height: 28px;
+    padding-right:10px;
+    padding-top: 5px;
+    border:solid 1px rgb(194, 194, 194);
+    border-radius: 3px;
+}
+.span2 a:hover{
+    background-color: rgb(245, 245, 245);
+    color: rgb(10, 152, 218);
+    transition-duration: .6s;
+}
+/*End Section2*/

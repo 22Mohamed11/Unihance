@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unihance| Sign in</title>
+    <!---->
+    <link rel="stylesheet" href="../css/style2.css" type="text/css">
+    <link rel="stylesheet" href="../css/all.min.css" type="text/css">
+    <!---->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!---->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap" rel="stylesheet">
+    <!---->
+
+</head>
+<body>
+    <section id="head0">
+            <div id="div4">
+                <img src="../images/BG/00.png" width="135px" height="40px">
+                <p style="color: white;" id="p1">Teach,<span style="color: rgb(223, 148, 27); background-color: rgba(20, 45, 83, 0.5);">Reach and Learn.</span></p>
+                <p id="p2" style="color: white;">Learn new stuff every day... don't stop at your limits</p>
+            </div>
+            <div id="div5">
+                <p id="p3">Sign in</p>
+                <br><br>
+                <form name="login" onsubmit="return test()" action="../html/index.html">
+                    <br><br>
+                    <input type="text" name="acount" placeholder="Enter Your Email" required autofocus>
+                    <br>
+                    <input type="password" name="pass" placeholder="Password" maxlength="16">
+                    <br>
+                    <center>
+                        <p class="p1">By clicking sign,you agree on our</p>
+                        <p class="p1" style="color: rgb(247, 137, 12); padding-bottom: 20px;">Terms of Use <span class="p1" style="color: black;">and</span> Privacy Policy</p>
+                        <p class="p1">Could not connect to the reCAPTCHA service. Please</p>
+                        <p class="p1">check your internet connection and reload to get a</p> 
+                        <p class="p1">reCAPTCHA challenge.</p>
+                    </center>
+                    <input type="submit" value="LOGIN" class="mo">
+                </form>
+                <div id="div6">
+                    <a href="#" class="a2"> 
+                        <img class="im1" height="20px" width="30px" src="../images/Logo/l6.png">
+                        <span class="sp1">Google</span>
+                    </a>
+                    <a class="a2" href="#">
+                        <img class="im1" height="20px" width="30px" src="../images/Logo/l7.png">
+                        <span class="sp1">Facebook</span>
+                    </a>
+                </div>
+            </div>
+    </section>
+    <script>
+        function test(){
+            var narr=["Mido Elkhlawy","","",""];
+            var parr=["2211293","","",""];
+            var name=document.forms["login"]["acount"].value;
+            var pass=document.forms["login"]["pass"].value;
+            for(var i=0 ; i<4 ; i++){
+                if(( name == narr[i]) && (pass == parr[i] ))
+                return true;
+                else if( name == "" || pass == ""){
+                    alert("Name and Password Empty");
+                    return false;
+                }
+            }
+            return false;
+        }
+    </script>
+</body>
+</html>

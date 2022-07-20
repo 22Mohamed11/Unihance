@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/*Start nav*/
+#navbar{
+    background-color: rgb(6, 28, 61);
+    display: flex;
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+}
+#div0 img{
+    cursor: pointer;
+    margin-left: 200px;
+    width:135px;
+    height:36px;
+}
+#div1 input{
+    margin-top: 3px;
+    margin-left: 23px;
+    width: 370px;
+    height: 37px;
+    color: rgb(255, 157, 0);
+    border: 2px solid rgb(255, 157, 0);
+    font-size: 16px;
+    border-radius: 5px;
+}
+input::placeholder{
+    padding-left: 15px;
+}
+#div1 i{
+    position: absolute;
+    left: 700px;
+    top: 22px;
+}
+#div2 a{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 35px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Barlow', sans-serif;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+#div3{
+    margin-left: 250px;
+}
+#div3 i{
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+    margin-top: 12px;
+}
+#div3 a{
+    display: inline-block;
+    text-decoration: none;
+    margin-left:20px ;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 19px;
+    border: 2px solid white;
+    padding: 6px 18px;
+    border-radius: 6px;
+}
+#div3 a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(44, 112, 201);
+    transition: .4s;
+    
+}
+/*End nav*/
+/*Start section1*/
+#section1{
+    height: 660px;
+    background-image: url(../images/BG/05.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.video1{
+    width: 50%;
+    margin-top:70px;
+    margin-left: 20%;
+    border:solid 2px rgb(197, 197, 197);
+    border-radius: 4px;
+}
+/*End section1*/
